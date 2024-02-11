@@ -1,0 +1,118 @@
+html,body{
+    background: white;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.loginCard{
+    width: 350px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.loginCard>form{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border: none;
+    width: 200px;
+    transition: all 0.3s ease-out ;
+}
+
+#cardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background: black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 40%;
+    width: 100%;
+    margin-top: -1.3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+#rest{
+    height: 50%;
+    width: 19rem;
+}
+
+#user{
+    width: 19rem;
+    display: inline-flex;
+    margin-left: 25px;
+    height: 25%;
+}
+
+#pass{
+    width: 19rem;
+    height: 25%;
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rest>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button{
+    font-size: medium;
+    border-radius: 5px;
+    margin-left: 18px;
+    margin-right: auto;
+    margin-top: 7px;
+    border: none;
+    background: black;
+    color: white;
+    width: 20rem;
+    height: 20%;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    margin-right: 5px;
+    margin-left: -20px;
+    position: relative;
+}
+p{
+    position: relative;
+    margin-left: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
+p>a{
+    cursor: pointer;
+}
+
+#on, #off{
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
